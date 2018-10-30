@@ -7,7 +7,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-#include "tools.h"
+#include "try.h"
 #include "malla.h"
 
 using namespace std;
@@ -16,8 +16,9 @@ malla::malla(char* filename){
 	this->filename = filename;
     this->position = glm::vec3(0, 0, 0);
     this->rotation = glm::vec3(0, 1, 0);
+    this->vPoints=NULL;
     this->angle = 0.0f;
-	assert(load_mesh(filename, &vao, &numVertices));
+	assert(load_mesh(filename, &vao, &numVertices,&vPoints));
 }
 
 GLuint malla::getVao(){
@@ -28,6 +29,9 @@ int malla::getNumVertices(){
     return this->numVertices;
 }
 
+GLfloat* malla::getPoints(){
+    return this->vPoints;
+}
 glm::vec3 malla::getPosition(){
     return this->position;
 }
@@ -43,7 +47,9 @@ char* malla::getFilename(){
 void malla::setPosition(glm::vec3 pos){
         this->position = pos;
 }
-
+void malla::setPoints(GLfloat* points){
+    this->vPoints=points;
+}
 void malla::setRotation(float ang, glm::vec3 rot){
         this->rotation = rot;
         this->angle = ang;
