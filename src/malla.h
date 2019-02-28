@@ -5,7 +5,7 @@ using namespace std;
 
 class malla{
     private:
-        GLuint vao, vbo;
+        GLuint vao, vbo, tex;
         int numVertices;
         GLfloat* vPoints;
         glm::vec3 position;
@@ -17,11 +17,13 @@ class malla{
 
     public:
         malla(char *filename);
-
+        malla(char *filename,char *texture);
+        bool load_texture(char* file_name, GLuint* tex);
+       // void draw();
         // gets
         GLuint getVao();
         int getNumVertices();
-       // btCollisionShape* getMallaShape();
+       
         GLfloat* getPoints();
         glm::vec3 getPosition();
         glm::vec3 getRotation();
@@ -30,7 +32,6 @@ class malla{
         // sets
         void setVao(GLuint vao);
         void setNumVertices(int numVertices);
-        //void setMallaShape(btCollisionShape* mallaShape);
         void setPoints(GLfloat* points);
         void setPosition(glm::vec3 pos);
         void setRotation(float ang, glm::vec3 rot);

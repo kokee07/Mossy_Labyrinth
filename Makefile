@@ -1,6 +1,6 @@
 CC=g++
 #SRC=src/enemigo.cpp src/maths_funcs.cpp src/gl_utils.cpp src/main.cpp
-SRC=src/*.cpp
+SRC=src/*.cpp src/*.c
 LIBS=-lGL -lGLEW -lglfw -lassimp -lLinearMath -lBulletDynamics -lBulletCollision
 INCLUDE=-I/usr/include/bullet
 EXEC=bin/prog
