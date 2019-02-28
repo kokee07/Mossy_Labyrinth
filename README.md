@@ -23,6 +23,7 @@ Los guardianes te permiten comenzar nuevamente la travesía por los pasillos al 
 ## Problemas
 Debido a la disposción de elementos y de la cámara, no se incluyo movimiento con mouse más allá del zoom con la ruedita.
 No se hizo un mayor estudio de los elementos, tamaños y posibles cambios por tanto puede verse tosco en principio.
+La modulación del código no pudo ser realizada como se esperaba en un prinicipio, los intentos no fueron fructíferos.
 Lamentamos la falta de menú e instrucciones in-game pero no pudimos hacerlo a tiempo. Enjoy it~
 
 
