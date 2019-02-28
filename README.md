@@ -17,10 +17,10 @@ Es decir, si el guardian de arriba está activo, el próximo bloque caerá siemp
 ## ¿Desafío? 
 Lograr evitar ser encerrado por las cajas, y llegar ileso a la casilla roja del nivel, la cual puede estar en 3 posiciones. La dificultad está en preveer los movimientos.
 
-##¿Qué pasa si quedo encerrado?
+## ¿Qué pasa si quedo encerrado?
 Los guardianes te permiten comenzar nuevamente la travesía por los pasillos al presionar la tecla "RePag" del teclado. Lo mismo podrás hacer una vez termines la partida y quieras jugar nuevamente.
 
-#Problemas
+## Problemas
 Lamentamos la falta de menú e instrucciones in-game pero no pudimos hacerlo a tiempo. Enjoy it~
 
 
