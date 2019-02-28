@@ -21,6 +21,8 @@ Lograr evitar ser encerrado por las cajas, y llegar ileso a la casilla roja del 
 Los guardianes te permiten comenzar nuevamente la travesía por los pasillos al presionar la tecla "RePag" del teclado. Lo mismo podrás hacer una vez termines la partida y quieras jugar nuevamente.
 
 ## Problemas
+Debido a la disposción de elementos y de la cámara, no se incluyo movimiento con mouse más allá del zoom con la ruedita.
+No se hizo un mayor estudio de los elementos, tamaños y posibles cambios por tanto puede verse tosco en principio.
 Lamentamos la falta de menú e instrucciones in-game pero no pudimos hacerlo a tiempo. Enjoy it~
 
 
